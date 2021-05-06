@@ -22,3 +22,7 @@ db = Database.getConnection("bolt://localhost:7687", "test_user", "root")
 db2 = Database.getConnection()
 print(db)
 print(db2)
+#Output
+#<neo4j.BoltDriver object at 0x7fb6d2729b00>
+#<neo4j.BoltDriver object at 0x7fb6d2729b00>
+
